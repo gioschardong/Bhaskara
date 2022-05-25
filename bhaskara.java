@@ -24,9 +24,11 @@ public class bhaskara {
 
         System.out.print("Insira o valor de C: ");
         C = in.nextDouble();
-
+        
+        //Calcualar Delta
         Delta = ((B*B)-4*A*C);
-
+        
+        //Apresentar resultados
         if (Delta>=0){
             x1 = (- B + Math.sqrt(Delta)) / (2*A);
             x2 = (- B - Math.sqrt(Delta)) / (2*A);
